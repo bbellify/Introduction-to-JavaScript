@@ -20,7 +20,18 @@ Do the following:
    HINT: no function required
 */
 
-
+let votingAge = 20;
+if (votingAge >= 18) {
+  console.log("True!")
+} else {
+  console.log("False")
+}
+votingAge = 15;
+if (votingAge >= 18) {
+  console.log("True!")
+} else {
+  console.log("False")
+}
 
 /*
 Task 1b - Values
@@ -32,6 +43,12 @@ Do the following:
 
    HINT: no function required
 */
+
+let var1 = 20;
+let var2 = 5;
+if (var2 === 5) {
+  var1 = var1/2
+}
 
 
 
@@ -47,6 +64,8 @@ Do the following:
 
    HINT: look up the Number method
 */
+let onecvar = "1999";
+console.log(Number(onecvar));
 
 
 
@@ -60,11 +79,9 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b;
 }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
