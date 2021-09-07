@@ -218,8 +218,7 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(bottleNumber){
     for (let i = bottleNumber; i > 0; i--) {
-      let newNumber = bottleNumber - 1;
-      return "${bottleNumber} bottles of soda on the wall, ${bottleNumber} bottles of soda, take one down pass it around ${newNumber} bottles of soda on the wall"
+      return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i - 1} bottles of soda on the wall`
     }
 }
 
